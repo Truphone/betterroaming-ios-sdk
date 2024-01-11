@@ -1,5 +1,17 @@
 # BetterRoaming IOS Package
 
+### Installation
+
+#### XCode
+
+* From file menu select `File` -> `Add Package Dependencies...`
+![add-package.png](docs%2Fscreenshots%2Fadd-package.png)
+* Enter https://github.com/Truphone/betterroaming-ios-sdk in the search field`
+![add-package.png](docs%2Fscreenshots%2Finstall-package.png)
+* Select `ebtterroaming-ios-sdk` package
+* Click `Add Package` button
+
+
 ### Usage
 
 #### Import the package
