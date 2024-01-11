@@ -1,0 +1,11 @@
+framework module BetterRoamingSdk {
+  umbrella header "BetterRoamingSdk.h"
+  export *
+
+  module * { export * }
+}
+
+module BetterRoamingSdk.Swift {
+  header "BetterRoamingSdk-Swift.h"
+  requires objc
+}

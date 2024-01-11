@@ -1,0 +1,1384 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BetterRoamingSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "BetterRoamingSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BetterRoamingSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BRCheckEsimSupportResult",
+        "printedName": "BRCheckEsimSupportResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notSupported",
+            "printedName": "notSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BetterRoamingSdk.BRCheckEsimSupportResult.Type) -> BetterRoamingSdk.BRCheckEsimSupportResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BRCheckEsimSupportResult",
+                    "printedName": "BetterRoamingSdk.BRCheckEsimSupportResult",
+                    "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BetterRoamingSdk.BRCheckEsimSupportResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BRCheckEsimSupportResult",
+                        "printedName": "BetterRoamingSdk.BRCheckEsimSupportResult",
+                        "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO12notSupportedyA2CmF",
+            "mangledName": "$s16BetterRoamingSdk24BRCheckEsimSupportResultO12notSupportedyA2CmF",
+            "moduleName": "BetterRoamingSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "supported",
+            "printedName": "supported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BetterRoamingSdk.BRCheckEsimSupportResult.Type) -> BetterRoamingSdk.BRCheckEsimSupportResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BRCheckEsimSupportResult",
+                    "printedName": "BetterRoamingSdk.BRCheckEsimSupportResult",
+                    "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BetterRoamingSdk.BRCheckEsimSupportResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BRCheckEsimSupportResult",
+                        "printedName": "BetterRoamingSdk.BRCheckEsimSupportResult",
+                        "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO9supportedyA2CmF",
+            "mangledName": "$s16BetterRoamingSdk24BRCheckEsimSupportResultO9supportedyA2CmF",
+            "moduleName": "BetterRoamingSdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BetterRoamingSdk.BRCheckEsimSupportResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BRCheckEsimSupportResult",
+                    "printedName": "BetterRoamingSdk.BRCheckEsimSupportResult",
+                    "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO8rawValueACSgSu_tcfc",
+            "mangledName": "$s16BetterRoamingSdk24BRCheckEsimSupportResultO8rawValueACSgSu_tcfc",
+            "moduleName": "BetterRoamingSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO8rawValueSuvp",
+            "mangledName": "$s16BetterRoamingSdk24BRCheckEsimSupportResultO8rawValueSuvp",
+            "moduleName": "BetterRoamingSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO8rawValueSuvg",
+                "mangledName": "$s16BetterRoamingSdk24BRCheckEsimSupportResultO8rawValueSuvg",
+                "moduleName": "BetterRoamingSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16BetterRoamingSdk24BRCheckEsimSupportResultO",
+        "mangledName": "$s16BetterRoamingSdk24BRCheckEsimSupportResultO",
+        "moduleName": "BetterRoamingSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "UInt",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BREsimInstallResult",
+        "printedName": "BREsimInstallResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknwon",
+            "printedName": "unknwon",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BetterRoamingSdk.BREsimInstallResult.Type) -> BetterRoamingSdk.BREsimInstallResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BREsimInstallResult",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                    "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BREsimInstallResult",
+                        "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                        "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16BetterRoamingSdk19BREsimInstallResultO7unknwonyA2CmF",
+            "mangledName": "$s16BetterRoamingSdk19BREsimInstallResultO7unknwonyA2CmF",
+            "moduleName": "BetterRoamingSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "fail",
+            "printedName": "fail",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BetterRoamingSdk.BREsimInstallResult.Type) -> BetterRoamingSdk.BREsimInstallResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BREsimInstallResult",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                    "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BREsimInstallResult",
+                        "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                        "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16BetterRoamingSdk19BREsimInstallResultO4failyA2CmF",
+            "mangledName": "$s16BetterRoamingSdk19BREsimInstallResultO4failyA2CmF",
+            "moduleName": "BetterRoamingSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BetterRoamingSdk.BREsimInstallResult.Type) -> BetterRoamingSdk.BREsimInstallResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BREsimInstallResult",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                    "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BREsimInstallResult",
+                        "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                        "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16BetterRoamingSdk19BREsimInstallResultO7successyA2CmF",
+            "mangledName": "$s16BetterRoamingSdk19BREsimInstallResultO7successyA2CmF",
+            "moduleName": "BetterRoamingSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "cancel",
+            "printedName": "cancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BetterRoamingSdk.BREsimInstallResult.Type) -> BetterRoamingSdk.BREsimInstallResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BREsimInstallResult",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                    "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BREsimInstallResult",
+                        "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                        "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16BetterRoamingSdk19BREsimInstallResultO6cancelyA2CmF",
+            "mangledName": "$s16BetterRoamingSdk19BREsimInstallResultO6cancelyA2CmF",
+            "moduleName": "BetterRoamingSdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BetterRoamingSdk.BREsimInstallResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BREsimInstallResult",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                    "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16BetterRoamingSdk19BREsimInstallResultO8rawValueACSgSu_tcfc",
+            "mangledName": "$s16BetterRoamingSdk19BREsimInstallResultO8rawValueACSgSu_tcfc",
+            "moduleName": "BetterRoamingSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16BetterRoamingSdk19BREsimInstallResultO8rawValueSuvp",
+            "mangledName": "$s16BetterRoamingSdk19BREsimInstallResultO8rawValueSuvp",
+            "moduleName": "BetterRoamingSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BetterRoamingSdk19BREsimInstallResultO8rawValueSuvg",
+                "mangledName": "$s16BetterRoamingSdk19BREsimInstallResultO8rawValueSuvg",
+                "moduleName": "BetterRoamingSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16BetterRoamingSdk19BREsimInstallResultO",
+        "mangledName": "$s16BetterRoamingSdk19BREsimInstallResultO",
+        "moduleName": "BetterRoamingSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "UInt",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BRInstallEsimResult",
+        "printedName": "BRInstallEsimResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BREsimInstallResult",
+                "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV6statusAA013BREsimInstallF0Ovp",
+            "mangledName": "$s16BetterRoamingSdk19BRInstallEsimResultV6statusAA013BREsimInstallF0Ovp",
+            "moduleName": "BetterRoamingSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BREsimInstallResult",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                    "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV6statusAA013BREsimInstallF0Ovg",
+                "mangledName": "$s16BetterRoamingSdk19BRInstallEsimResultV6statusAA013BREsimInstallF0Ovg",
+                "moduleName": "BetterRoamingSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BREsimInstallResult",
+                    "printedName": "BetterRoamingSdk.BREsimInstallResult",
+                    "usr": "s:16BetterRoamingSdk19BREsimInstallResultO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV6statusAA013BREsimInstallF0Ovs",
+                "mangledName": "$s16BetterRoamingSdk19BRInstallEsimResultV6statusAA013BREsimInstallF0Ovs",
+                "moduleName": "BetterRoamingSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV6statusAA013BREsimInstallF0OvM",
+                "mangledName": "$s16BetterRoamingSdk19BRInstallEsimResultV6statusAA013BREsimInstallF0OvM",
+                "moduleName": "BetterRoamingSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iccid",
+            "printedName": "iccid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV5iccidSSSgvp",
+            "mangledName": "$s16BetterRoamingSdk19BRInstallEsimResultV5iccidSSSgvp",
+            "moduleName": "BetterRoamingSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV5iccidSSSgvg",
+                "mangledName": "$s16BetterRoamingSdk19BRInstallEsimResultV5iccidSSSgvg",
+                "moduleName": "BetterRoamingSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV5iccidSSSgvs",
+                "mangledName": "$s16BetterRoamingSdk19BRInstallEsimResultV5iccidSSSgvs",
+                "moduleName": "BetterRoamingSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV5iccidSSSgvM",
+                "mangledName": "$s16BetterRoamingSdk19BRInstallEsimResultV5iccidSSSgvM",
+                "moduleName": "BetterRoamingSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV",
+        "mangledName": "$s16BetterRoamingSdk19BRInstallEsimResultV",
+        "moduleName": "BetterRoamingSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BetterRomaingManager",
+        "printedName": "BetterRomaingManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BetterRomaingManager",
+                "printedName": "BetterRoamingSdk.BetterRomaingManager",
+                "usr": "c:@M@BetterRoamingSdk@objc(cs)BetterRomaingManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BetterRoamingSdk@objc(cs)BetterRomaingManager(im)init",
+            "mangledName": "$s16BetterRoamingSdk0A14RomaingManagerCACycfc",
+            "moduleName": "BetterRoamingSdk",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "checkEsimSupport",
+            "printedName": "checkEsimSupport()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16BetterRoamingSdk0A14RomaingManagerC16checkEsimSupportSbyYaF",
+            "mangledName": "$s16BetterRoamingSdk0A14RomaingManagerC16checkEsimSupportSbyYaF",
+            "moduleName": "BetterRoamingSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateESimAndDownload",
+            "printedName": "generateESimAndDownload(body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BRInstallEsimResult",
+                "printedName": "BetterRoamingSdk.BRInstallEsimResult",
+                "usr": "s:16BetterRoamingSdk19BRInstallEsimResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16BetterRoamingSdk0A14RomaingManagerC23generateESimAndDownload4bodyAA19BRInstallEsimResultVSo12NSDictionaryC_tYaKF",
+            "mangledName": "$s16BetterRoamingSdk0A14RomaingManagerC23generateESimAndDownload4bodyAA19BRInstallEsimResultVSo12NSDictionaryC_tYaKF",
+            "moduleName": "BetterRoamingSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openStatusPage",
+            "printedName": "openStatusPage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16BetterRoamingSdk0A14RomaingManagerC14openStatusPageyySSYaKF",
+            "mangledName": "$s16BetterRoamingSdk0A14RomaingManagerC14openStatusPageyySSYaKF",
+            "moduleName": "BetterRoamingSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openContactPage",
+            "printedName": "openContactPage(params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16BetterRoamingSdk0A14RomaingManagerC15openContactPage6paramsySDyS2SG_tYaKF",
+            "mangledName": "$s16BetterRoamingSdk0A14RomaingManagerC15openContactPage6paramsySDyS2SG_tYaKF",
+            "moduleName": "BetterRoamingSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BetterRoamingSdk@objc(cs)BetterRomaingManager",
+        "mangledName": "$s16BetterRoamingSdk0A14RomaingManagerC",
+        "moduleName": "BetterRoamingSdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 121,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 144,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 121,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 144,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 121,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 144,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 35,
+      "value": "\"https:\/\/customer-care-api.io3.com\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 30,
+      "value": "\"https:\/\/my.betterroaming.com\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1245,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1283,
+      "length": 30,
+      "value": "\"Calling supportsCellularPlan\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1397,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1433,
+      "length": 46,
+      "value": "\"Device supports eSIM:\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1478,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2438,
+      "length": 48,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2470,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2479,
+      "length": 1,
+      "value": "\"\/topup\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "Dictionary",
+      "offset": 2626,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2701,
+      "length": 31,
+      "value": "\"Failed to open URL \""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2731,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "Array",
+      "offset": 3401,
+      "length": 13,
+      "value": "[\"tenant_id\"]"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "Dictionary",
+      "offset": 3574,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3818,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4045,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 4112,
+      "length": 20,
+      "value": "\"\/v1\/encoder\/encode\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "Array",
+      "offset": 4240,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4346,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4351,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 4759,
+      "length": 41,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 4791,
+      "length": 1,
+      "value": "\"\/contact\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 4943,
+      "length": 54,
+      "value": "\"Contact URL: \""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 4996,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "Dictionary",
+      "offset": 5331,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 5570,
+      "length": 18,
+      "value": "\"Add plan started\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 6394,
+      "length": 61,
+      "value": "\"Add plan completed. \""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 6454,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 6871,
+      "length": 22,
+      "value": "\"\/v1\/profile\/activate\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7053,
+      "length": 39,
+      "value": "\"Profile activated: \""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7091,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7255,
+      "length": 54,
+      "value": "\"HTTP request started. URL:\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7293,
+      "length": 1,
+      "value": "\", body: \""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7308,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7531,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7571,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7615,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7655,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7757,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8048,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 8125,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 8218,
+      "length": 94,
+      "value": "\"HTTP request failed: STATUS:\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 8293,
+      "length": 1,
+      "value": "\", data: \""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 8311,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 8436,
+      "length": 32,
+      "value": "\"[BetterRoaming SDK] \""
+    },
+    {
+      "filePath": "\/Users\/1global\/Sites\/sdk\/source\/BetterRoamingSdk\/BetterRoamingSdk\/BetterRoamingSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 8467,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

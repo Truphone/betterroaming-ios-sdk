@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BetterRoamingSdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import BetterRoamingSdk
+import CoreTelephony
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum BRCheckEsimSupportResult : Swift.UInt {
+  case notSupported
+  case supported
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+public enum BREsimInstallResult : Swift.UInt {
+  case unknwon
+  case fail
+  case success
+  case cancel
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+public struct BRInstallEsimResult {
+  public var status: BetterRoamingSdk.BREsimInstallResult
+  public var iccid: Swift.String?
+}
+@objc @_inheritsConvenienceInitializers public class BetterRomaingManager : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func checkEsimSupport() async -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func generateESimAndDownload(body: Foundation.NSDictionary) async throws -> BetterRoamingSdk.BRInstallEsimResult
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func openStatusPage(_ iccid: Swift.String) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func openContactPage(params: [Swift.String : Swift.String]) async throws
+  #endif
+  @objc deinit
+}
+extension BetterRoamingSdk.BRCheckEsimSupportResult : Swift.Equatable {}
+extension BetterRoamingSdk.BRCheckEsimSupportResult : Swift.Hashable {}
+extension BetterRoamingSdk.BRCheckEsimSupportResult : Swift.RawRepresentable {}
+extension BetterRoamingSdk.BREsimInstallResult : Swift.Equatable {}
+extension BetterRoamingSdk.BREsimInstallResult : Swift.Hashable {}
+extension BetterRoamingSdk.BREsimInstallResult : Swift.RawRepresentable {}
