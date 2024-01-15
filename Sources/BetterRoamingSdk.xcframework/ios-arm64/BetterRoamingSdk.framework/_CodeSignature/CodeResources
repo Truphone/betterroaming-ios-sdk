@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BetterRoamingSdk-Swift.h</key>
 		<data>
-		gQFg1wIXePMrMUPL6klEyflnklo=
+		/hr1ddu3Jknybc4bXRCYgVyp+Fo=
 		</data>
 		<key>Headers/BetterRoamingSdk.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0XrKeilAB6Wi6kdSfNwXSLv6oDA=
+		jA7NV67ZOwg9JUpzD/v1mfo81kU=
 		</data>
 		<key>Modules/BetterRoamingSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		QtmpBssyUtBfzbN78BlcTl8IgT8=
+		ZC4dKb4Jr2/M1S+SAuwrMlypFJ0=
 		</data>
 		<key>Modules/BetterRoamingSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		3MPUpx34MnHBy6YlSl33demU3nU=
+		G/puJpw74411uiXMi0Uw6zboiJA=
 		</data>
 		<key>Modules/BetterRoamingSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		u6ypZUzmb/KwAfupFfIm22ekNcc=
+		XQ5FRhWwLeyleFQrdsFlEQhbAtI=
 		</data>
 		<key>Modules/BetterRoamingSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3MPUpx34MnHBy6YlSl33demU3nU=
+		G/puJpw74411uiXMi0Uw6zboiJA=
 		</data>
 		<key>Modules/BetterRoamingSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zfHb7SC3wNHl3YOL8IBBqL3aGy4=
+		VSkAkbQ8Qt7dzAtayKdq5UCm25g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FRFQ0OkCzNlIbUICvitsewBzpO3VozmzJJk6HywUy5I=
+			NaanxUGLRkaTRbIGEE+odXzF9wVNsLNZlUHS6xE0WNg=
 			</data>
 		</dict>
 		<key>Headers/BetterRoamingSdk.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ictyIGpdVcPyTdXRMkYM63yjrignRj9/Rst9d0oRgvw=
+			CZrVOxgrARGmvJYDihSHKa7Ri0Ff6kqwNJSCcPRWMYk=
 			</data>
 		</dict>
 		<key>Modules/BetterRoamingSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Bujd0Wse+nWVqLEHbZYk1zKrbOvOAoM6zIxDtuN174=
+			EAH1cP5Ew7sNGneR6e4KbUesJIU72fHVJLe7DK40RDo=
 			</data>
 		</dict>
 		<key>Modules/BetterRoamingSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5t8shniAwzCRpc7kt8jamiGCADRVxJL/A5r+RGJeMFs=
+			aFuEbTIu+0ow7G141JBSKSQ+RqB7T9cdyfJMN8fBMms=
 			</data>
 		</dict>
 		<key>Modules/BetterRoamingSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Bujd0Wse+nWVqLEHbZYk1zKrbOvOAoM6zIxDtuN174=
+			EAH1cP5Ew7sNGneR6e4KbUesJIU72fHVJLe7DK40RDo=
 			</data>
 		</dict>
 		<key>Modules/BetterRoamingSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0IUPVzT4e+9YZR63M6l/o1qbtsBQL852I9dqgxyLXZg=
+			2JDhSsATXPpF+z5/RvY5KWbGnr2lww0VhInJB7Qq1es=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
